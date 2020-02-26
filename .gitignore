@@ -1,0 +1,6 @@
+*.swp
+/Packages/Babel
+/Packages/Babel Snippets
+Packages/User/Package Control.cache/
+Installed Packages/
+Local/
