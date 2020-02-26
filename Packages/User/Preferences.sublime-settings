@@ -1,4 +1,12 @@
 {
-	"ignored_packages": [],
-	// Installed : Vintage Babel Babel Snippets BetterCoffeescript
+  "ignored_packages": [],
+  // Installed : Vintage Babel Babel Snippets BetterCoffeescript
+  "word_wrap": true,
+  "scroll_speed": 0,
+  "auto_complete_delay": 300,
+  "draw_white_space": "all",
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "caret_style":"smooth",
+  "highlight_line": true,
 }

@@ -1,0 +1,11 @@
+[
+  {
+    "keys": ["alt+k"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/console-log.sublime-macro"},
+    "context": [
+      { "key": "setting.command_mode", "operand": true },
+      { "key": "setting.is_widget", "operand": false},
+    ],
+  }
+]
