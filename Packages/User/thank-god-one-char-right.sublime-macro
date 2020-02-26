@@ -1,0 +1,73 @@
+[
+	{
+		"args": null,
+		"command": "exit_insert_mode"
+	},
+	{
+		"args":
+		{
+			"commands":
+			[
+				[
+					"vi_move_to_first_non_white_space_character",
+					{
+						"register": "\""
+					}
+				],
+				[
+					"insert",
+					{
+						"characters": "console.l"
+					}
+				],
+				[
+					"insert",
+					{
+						"characters": "og("
+					}
+				],
+				[
+					"exit_insert_mode",
+					null
+				]
+			]
+		},
+		"command": "sequence"
+	},
+	{
+		"args":
+		{
+			"commands":
+			[
+				[
+					"move_to",
+					{
+						"register": "\"",
+						"to": "hardeol"
+					}
+				],
+				[
+					"insert",
+					{
+						"characters": "):"
+					}
+				],
+				[
+					"left_delete",
+					null
+				],
+				[
+					"insert",
+					{
+						"characters": ";"
+					}
+				],
+				[
+					"exit_insert_mode",
+					null
+				]
+			]
+		},
+		"command": "sequence"
+	}
+]

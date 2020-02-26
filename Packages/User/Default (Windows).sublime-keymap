@@ -1,11 +1,39 @@
 [
   {
-    "keys": ["alt+k"],
-    "command": "run_macro_file",
-    "args": {"file": "Packages/User/console-log.sublime-macro"},
+    "keys": ["alt+d"],
+    "command": "exit_insert_mode",
     "context": [
-      { "key": "setting.command_mode", "operand": true },
+      { "key": "setting.command_mode", "operand": false },
       { "key": "setting.is_widget", "operand": false},
-    ],
-  }
+    ]
+  },
+
+  // {
+  //   "keys": ["alt+k"],
+  //   "command": "run_macro_file",
+  //   "args": {"file": "Packages/User/console-log.sublime-macro"},
+  //   "context": [
+  //     { "key": "setting.command_mode", "operand": true },
+  //     { "key": "setting.is_widget", "operand": false},
+  //   ],
+  // },
+
+  {
+    "keys": ["alt+j"],
+    "command": "move",
+     "args": {"by": "characters", "forward": true}
+  },
+
+
+  {
+    "keys": ["alt+k", "<character>"], 
+    "command": "easy_motion",
+    "args": {"select_text": false} 
+  },
+
+  {
+    "keys": ["alt+k", "enter"], 
+    "command": "easy_motion",
+    "args": {"select_text": false, "character": "enter"}
+  },
 ]
