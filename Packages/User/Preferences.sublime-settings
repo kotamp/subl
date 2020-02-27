@@ -1,13 +1,17 @@
 {
-	"auto_complete_delay": 300,
-	"caret_style": "smooth",
-	"draw_white_space": "all",
-	"highlight_line": true,
-	"ignored_packages":
-	[
-	],
-	"scroll_speed": 0,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"word_wrap": true
+  "auto_complete_delay": 300,
+  "caret_style": "smooth",
+  "color_scheme": "Monokai.sublime-color-scheme",
+  "draw_white_space": "all",
+  "highlight_line": true,
+  "ignored_packages":
+  [
+  ],
+  "scroll_speed": 0,
+  "tab_size": 2,
+  "theme": "Adaptive.sublime-theme",
+  "word_wrap": true,
+  "overlay_scroll_bars": "enabled",
+  "rulers": [80],
+  "translate_tabs_to_spaces": true,
 }
