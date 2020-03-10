@@ -1,7 +1,7 @@
 {
 	"auto_complete_delay": 300,
 	"caret_style": "smooth",
-	"color_scheme": "Monokai.sublime-color-scheme",
+	"color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme",
 	"draw_white_space": "all",
 	"highlight_line": true,
 	"ignored_packages":
@@ -16,5 +16,9 @@
 	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"save_on_focus_lost": true,
+	"default_line_ending": "unix",
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
 }
