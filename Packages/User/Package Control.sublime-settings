@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
 		"Babel",
 		"Babel Snippets",
 		"Better CoffeeScript",
