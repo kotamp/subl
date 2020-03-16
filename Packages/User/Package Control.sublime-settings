@@ -6,10 +6,13 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"AutoFileName",
 		"Babel",
 		"Babel Snippets",
 		"Better CoffeeScript",
 		"EasyMotion",
+		"File Rename",
+		"FuzzyFilePath",
 		"JsPrettier",
 		"Package Control"
 	]
