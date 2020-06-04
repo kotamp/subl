@@ -1,0 +1,141 @@
+[
+  {
+    "keys": ["alt+d"],
+    "command": "exit_insert_mode",
+    "context": [
+      { "key": "setting.command_mode", "operand": false },
+      { "key": "setting.is_widget", "operand": false }
+    ]
+  },
+  {
+    "keys": ["alt+d"],
+    "command": "single_selection",
+    "context": [
+      { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+    ]
+  },
+  {
+    "keys": ["alt+d"],
+    "command": "clear_fields",
+    "context": [
+      { "key": "has_next_field", "operator": "equal", "operand": true }
+    ]
+  },
+  {
+    "keys": ["alt+d"],
+    "command": "clear_fields",
+    "context": [
+      { "key": "has_prev_field", "operator": "equal", "operand": true }
+    ]
+  },
+  {
+    "keys": ["alt+d"],
+    "command": "hide_panel",
+    "args": { "cancel": true },
+    "context": [
+      { "key": "panel_visible", "operator": "equal", "operand": true }
+    ]
+  },
+  {
+    "keys": ["alt+d"],
+    "command": "hide_overlay",
+    "context": [
+      { "key": "overlay_visible", "operator": "equal", "operand": true }
+    ]
+  },
+  {
+    "keys": ["alt+d"],
+    "command": "hide_popup",
+    "context": [
+      { "key": "popup_visible", "operator": "equal", "operand": true }
+    ]
+  },
+  {
+    "keys": ["alt+d"],
+    "command": "hide_auto_complete",
+    "context": [
+      { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+    ]
+  },
+
+  // {
+  //   "keys": ["alt+k"],
+  //   "command": "run_macro_file",
+  //   "args": {"file": "Packages/User/console-log.sublime-macro"},
+  //   "context": [
+  //     { "key": "setting.command_mode", "operand": true },
+  //     { "key": "setting.is_widget", "operand": false},
+  //   ],
+  // },
+
+  {
+    "keys": ["alt+l"],
+    "command": "set_motion",
+    "args": {
+      "motion": "vi_move_by_characters_in_line",
+      "motion_args": { "forward": true, "extend": true, "visual": false }
+    }
+    //"context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["alt+h"],
+    "command": "set_motion",
+    "args": {
+      "motion": "vi_move_by_characters_in_line",
+      "motion_args": { "forward": false, "extend": true }
+    }
+    // "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["alt+j"],
+    "command": "set_motion",
+    "args": {
+      "motion": "move",
+      "motion_args": { "by": "lines", "forward": true, "extend": true },
+      "linewise": true
+    }
+    // "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["alt+k"],
+    "command": "set_motion",
+    "args": {
+      "motion": "move",
+      "motion_args": { "by": "lines", "forward": false, "extend": true },
+      "linewise": true
+    }
+    // "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["alt+;", "<character>"],
+    "command": "easy_motion",
+    "args": { "select_text": false }
+  },
+
+  {
+    "keys": ["alt+;", "enter"],
+    "command": "easy_motion",
+    "args": { "select_text": false, "character": "enter" }
+  },
+
+  {
+    "keys": ["alt+u"],
+    "command": "toggle_menu"
+  },
+
+  {
+    "keys": ["ctrl+alt+f"],
+    "command": "js_prettier"
+  },
+ { "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
+  [
+    { "key": "selector", "operator": "equal", "operand": "(text.html, text.xml, meta.jsx.js) - string - comment", "match_all": true },
+    { "key": "preceding_text", "operator": "regex_match", "operand": ".*<$", "match_all": true },
+    { "key": "setting.auto_close_tags" }
+  ]
+} 
+]

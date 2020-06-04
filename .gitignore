@@ -1,10 +1,5 @@
-*.swp
-/Packages/Babel
-/Packages/Babel Snippets
-Packages/User/Package Control.cache/
-Installed Packages/
-Local/
-Cache/
-Index/
-Packages/User/Package Control.last-run
-*.last-run
+/*
+!.gitignore
+!/Packages/User
+/Packages/User/Package Control.cache/
+/Packages/User/Package Control.last-run
